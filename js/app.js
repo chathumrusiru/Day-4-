@@ -3,13 +3,13 @@
 //let , var , const
 
 //{
-  //  var name = "Hirun";
+  //  var name = "Chathum";
   //  let age = 20;
 
   //  console.log(age); // 20
 
 //}
-//console.log(name); // Hirun
+//console.log(name); // Chathum
 //console.log(age); // 20
 
 let age =30;

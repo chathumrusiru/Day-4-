@@ -97,3 +97,30 @@ console.log(txtValue("Hello World"));
 // Arrow Function with single parameter- short hand 
 let sample = txtValue => txtValue;
 console.log(sample("Hello world 2"));
+
+//sorting of objects
+
+const leterList = ["D","G","S","A","W","L","B"];
+console.log(leterList);
+
+const sortArray = leterList.sort();
+console.log(sortArray);
+
+//map
+const salaryList = [50000,60000,70000,80000,90000];
+console.log(salaryList);
+
+console.log(salaryList.map(salary => salary* 2));
+
+//find method
+
+const studentList = [
+    {name: "saman", age: 20, gender: "male"},
+    {name: "nimal", age: 25, gender: "male"},
+    {name: "kamal", age: 30, gender: "male"},
+    {name: "sunil", age: 35, gender: "male"},
+    {name: "kumar", age: 40, gender: "male"},
+];
+
+const student = studentList.find(student => student.name === "kamal");
+console.log(student); // {name: "kamal", age: 30, gender: "male"}

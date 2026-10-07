@@ -30,8 +30,19 @@
 //customerList =("sunil");
 //console.log(customerList); // ["saman","nimal","kamal","sunil"]
 
-const customerList = ["saman","nimal","kamal"];
-console.log(customerList); // ["saman","nimal","kamal"]
+// const customerList = ["saman","nimal","kamal"];
+// console.log(customerList); // ["saman","nimal","kamal"]
 
-customerList.push("sunil");
-console.log(customerList); // ["saman","nimal","kamal","sunil"]
+// customerList.push("sunil");
+// console.log(customerList); // ["saman","nimal","kamal","sunil"]
+
+// array methos -------------
+const number =[];
+number.push(1);
+number.push(2);
+number.push(3);
+number.push(4);
+number.push(5);
+console.log(number);
+number.reverse();
+console.log(number);
